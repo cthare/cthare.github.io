@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://cthare.github.io/index.html/project/raspberry-spy/</loc>
+      <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://cthare.github.io/index.html/project/wger/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
     </url>
@@ -59,89 +68,8 @@
     
     <url>
     
-      <loc>https://cthare.github.io/index.html/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/project/raspberry-spy/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/faq/</loc>
-      <lastmod>2016-04-10T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://cthare.github.io/index.html/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -197,47 +125,17 @@
     
     <url>
     
-      <loc>https://cthare.github.io/index.html/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://cthare.github.io/index.html/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://cthare.github.io/index.html/tags/open-source/</loc>
+      <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://cthare.github.io/index.html/tags/personal/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
