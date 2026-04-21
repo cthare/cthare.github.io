@@ -9,7 +9,7 @@
     var t = root.getAttribute('data-theme');
     btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
     if (icon) icon.textContent = t === 'dark' ? '●' : '○';
-    if (label) label.textContent = t === 'dark' ? 'dark' : 'light';
+    if (label) label.textContent = t === 'dark' ? 'dark mode' : 'light mode';
   }
 
   render();

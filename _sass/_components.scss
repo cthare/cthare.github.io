@@ -1,3 +1,18 @@
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--bg);
+  color: var(--accent);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--accent);
+  z-index: 100;
+}
+
 .site-header {
   max-width: 65ch;
   width: 100%;
