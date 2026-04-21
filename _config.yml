@@ -1,0 +1,23 @@
+title: Colin Hare
+description: Site Reliability Engineer. Delray Beach, FL.
+url: https://www.colinhare.com
+author:
+  name: Colin Hare
+  email: colin@colinhare.com
+
+permalink: /:path/
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - TODO.md
+  - vendor
+  - node_modules

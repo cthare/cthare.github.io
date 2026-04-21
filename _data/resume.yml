@@ -1,0 +1,83 @@
+name: Colin Hare
+title: Site Reliability Engineer
+location: Delray Beach, FL
+email: colin@colinhare.com
+links:
+  github: https://github.com/cthare
+  linkedin: https://www.linkedin.com/in/colinhare
+
+summary: >
+  Site Reliability Engineer focused on improving service reliability, scalability, and
+  performance through observability, automation, and operational excellence.
+
+experience:
+  - role: Site Reliability Engineer II
+    company: ModMed
+    location: Boca Raton, FL
+    start: 2023-04
+    end: present
+    bullets:
+      - Lead observability strategy; own Datadog configuration and rollout across services.
+      - Instrument legacy applications with Datadog APM to shrink debugging time.
+      - Centralize logs with sampling pipelines to reduce noise and cost.
+      - Build dynamic dashboards and define SLIs/SLOs for core services.
+      - Author Python-based custom service checks.
+      - Introduce Ansible and write reusable Terraform modules for AWS.
+      - Redesign on-call with PagerDuty; reduce alert fatigue 80%.
+
+  - role: Support Services Engineer
+    company: ModMed
+    location: Boca Raton, FL
+    start: 2021-08
+    end: 2023-04
+    bullets:
+      - Administer Windows infrastructure across AWS and on-prem.
+      - Partner with Cloud and Implementation teams on legacy-to-AWS migrations.
+      - Maintain Python automation for maintenance windows and alert suppression.
+      - Build Google Apps Script tools to monitor customer performance.
+      - Mentor junior staff on IT fundamentals and systems architecture.
+
+  - role: System Administrator
+    company: GA Telesis
+    location: Fort Lauderdale, FL
+    start: 2018-07
+    end: 2021-07
+    bullets:
+      - Managed IT infrastructure across 8 global offices and 2 datacenters.
+      - Led migration from Exchange to Office 365; rolled out Teams and OneDrive.
+      - Automated backup testing to strengthen disaster recovery.
+      - Led rapid remote-work transformation.
+      - Deployed S3 for marketing media and backup repositories.
+
+  - role: IT Specialist
+    company: ExamSoft
+    location: Delray Beach, FL
+    start: 2017-05
+    end: 2018-06
+    bullets:
+      - Supported corporate infrastructure via Jira Helpdesk.
+      - Scripted onboarding and logging automations.
+      - Built remote-access VPN for engineers.
+
+  - role: IT Administrator
+    company: Sandy James Catering
+    location: West Palm Beach, FL
+    start: 2012-08
+    end: 2017-05
+    bullets:
+      - Built a Flask-based phone system for sales workflows.
+      - Managed IT infrastructure for office and remote staff.
+
+education:
+  - degree: B.S. Applied Computer Science
+    institution: Troy University
+    year: 2018
+
+skills:
+  Cloud: [AWS, Kubernetes, VMware, Proxmox]
+  Infrastructure as code: [Terraform, Terragrunt, Ansible, AWX]
+  CI/CD and GitOps: [Jenkins, ArgoCD, GitHub, Bitbucket]
+  Languages: [Python, PowerShell, Bash, JavaScript]
+  Observability: [Datadog, LogicMonitor, Site24x7]
+  Security: [CrowdStrike, Qualys, TAEGIS, GuardiCore]
+  Operations: [PagerDuty, Jira, Confluence, Active Directory]

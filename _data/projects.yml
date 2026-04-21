@@ -1,0 +1,27 @@
+- name: Raspberry Spy
+  slug: raspberry-spy
+  summary: Raspberry Pi with camera and PIR motion sensor; captures stills and emails them when motion fires.
+  tech: [Python, Raspberry Pi]
+  links:
+    github: https://github.com/cthare/Raspberry-Spy
+
+- name: wger
+  slug: wger
+  summary: Contributions to the open-source self-hosted fitness tracker.
+  tech: [Python, Django]
+  links:
+    github: https://github.com/wger-project/wger
+
+- name: open-phone-tree
+  slug: open-phone-tree
+  summary: Flask + Twilio IVR used as a small-business ordering line.
+  tech: [Python, Flask, Twilio]
+  links:
+    github: https://github.com/cthare/open-phone-tree
+
+- name: etudes
+  slug: etudes
+  summary: SICP and CS61A exercises in Scheme and Python.
+  tech: [Scheme, Python]
+  links:
+    github: https://github.com/cthare/etudes
