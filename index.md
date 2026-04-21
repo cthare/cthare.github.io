@@ -8,4 +8,4 @@ I'm Colin Hare, a Site Reliability Engineer based in Delray Beach, FL. I focus o
 
 I currently work as a Site Reliability Engineer at [ModMed](https://www.modmed.com) supporting the gGastro product line, where I lead observability across our services, act as primary incident responder, and build reusable Terraform and Ansible automation for AWS infrastructure to eliminate team toil.
 
-See [projects](/projects/), read the [resume](/resume/), or [get in touch](/contact/).
+Check out my [projects](/projects/), read my [resume](/resume/), or [get in touch](/contact/).

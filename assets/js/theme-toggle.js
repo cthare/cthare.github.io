@@ -3,11 +3,13 @@
   if (!btn) return;
   var root = document.documentElement;
   var icon = btn.querySelector('[data-theme-icon]');
+  var label = btn.querySelector('[data-theme-label]');
 
   function render() {
     var t = root.getAttribute('data-theme');
     btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
-    if (icon) icon.textContent = t === 'dark' ? '☀' : '☾';
+    if (icon) icon.textContent = t === 'dark' ? '●' : '○';
+    if (label) label.textContent = t === 'dark' ? 'dark' : 'light';
   }
 
   render();
