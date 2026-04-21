@@ -4,80 +4,144 @@ location: Delray Beach, FL
 email: colin@colinhare.com
 links:
   github: https://github.com/cthare
-  linkedin: https://www.linkedin.com/in/colinhare
+  linkedin: http://linkedin.com/in/colinhare
 
 summary: >
   Site Reliability Engineer focused on improving service reliability, scalability, and
-  performance through observability, automation, and operational excellence.
+  performance through robust observability, automation, and operational excellence.
+  Skilled in diagnosing complex issues across distributed systems, regardless of prior
+  familiarity. Experienced in defining SLIs/SLOs, reducing alert fatigue, and
+  implementing automation to eliminate manual toil. Trusted partner in cross-functional
+  teams, bridging support, development, and platform engineering to build reliable,
+  maintainable systems at scale.
 
 experience:
-  - role: Site Reliability Engineer II
+  - role: Site Reliability Engineer 2
     company: ModMed
     location: Boca Raton, FL
-    start: 2023-04
-    end: present
+    dates: Apr 2023 – Present
     bullets:
-      - Lead observability strategy; own Datadog configuration and rollout across services.
-      - Instrument legacy applications with Datadog APM to shrink debugging time.
-      - Centralize logs with sampling pipelines to reduce noise and cost.
-      - Build dynamic dashboards and define SLIs/SLOs for core services.
-      - Author Python-based custom service checks.
-      - Introduce Ansible and write reusable Terraform modules for AWS.
-      - Redesign on-call with PagerDuty; reduce alert fatigue 80%.
+      - Led observability initiatives; owned Datadog strategy, configuration, and implementation across supported services.
+      - Instrumented legacy applications with Datadog APM, enabling performance issue detection and faster debugging.
+      - Centralized logs with Datadog; implemented sampling pipelines to reduce noise and costs while preserving visibility.
+      - Built dynamic dashboards providing engineering and support teams with real-time insights into service health and system performance.
+      - Developed Python-based custom service checks for key application and infrastructure components.
+      - Defined and implemented SLIs/SLOs for core services; integrated with Datadog for proactive alerting and reliability tracking.
+      - Mentored teams on Datadog best practices, improving incident response time and organization-wide adoption.
+      - Introduced Ansible for configuration management, reducing deployment friction and standardizing environments.
+      - Authored reusable Terraform modules for AWS infrastructure provisioning, including EC2 Image Builder.
+      - Spearheaded automation initiatives by identifying repetitive tasks and implementing self-service forms, scripts, and workflow integrations, reducing team toil.
+      - Acted as primary incident responder; led triage, coordinated cross-functional response, and drove postmortems.
+      - Built and supported CI/CD pipelines using Jenkins, GitHub Actions, and ArgoCD; integrated GitOps workflows and enabled automatic Docker image builds and pushes to AWS ECR.
+      - Revamped on-call process using PagerDuty; defined escalation policies and reduced alert noise by 80%.
+      - Collaborated cross-functionally to identify system gaps and deliver scalable solutions across legacy and Kubernetes-based platforms.
+      - "Supported hybrid infrastructure: legacy EC2 workloads and containerized services in EKS (Kubernetes on AWS)."
 
   - role: Support Services Engineer
     company: ModMed
     location: Boca Raton, FL
-    start: 2021-08
-    end: 2023-04
+    dates: Aug 2021 – Apr 2023
     bullets:
-      - Administer Windows infrastructure across AWS and on-prem.
-      - Partner with Cloud and Implementation teams on legacy-to-AWS migrations.
-      - Maintain Python automation for maintenance windows and alert suppression.
-      - Build Google Apps Script tools to monitor customer performance.
-      - Mentor junior staff on IT fundamentals and systems architecture.
+      - Administered Windows-based infrastructure across AWS and on-prem datacenters, supporting nationwide healthcare operations.
+      - Partnered with Cloud and Implementation teams to migrate legacy systems to AWS, enabling full datacenter decommissioning.
+      - Maintained Python-based automation to schedule maintenance on shared calendars and suppress monitoring alerts via APIs for monitoring services (Google Calendar, LogicMonitor, Site24x7).
+      - Built internal Google Apps Script tools to monitor enterprise customer performance, improving operational visibility.
+      - Developed PowerShell scripts to automate backup cleanups, reducing manual work and optimizing storage costs.
+      - Collaborated with clients and vendors to implement and maintain VPN tunnels and SFTP integrations for secure data transfer.
+      - Served as a technical liaison between Support and Cloud teams, enhancing incident response and service quality.
+      - Mentored junior staff on IT fundamentals and internal systems architecture, contributing to team promotions into cloud roles.
 
   - role: System Administrator
     company: GA Telesis
     location: Fort Lauderdale, FL
-    start: 2018-07
-    end: 2021-07
+    dates: Jul 2018 – Jul 2021
     bullets:
-      - Managed IT infrastructure across 8 global offices and 2 datacenters.
-      - Led migration from Exchange to Office 365; rolled out Teams and OneDrive.
-      - Automated backup testing to strengthen disaster recovery.
-      - Led rapid remote-work transformation.
-      - Deployed S3 for marketing media and backup repositories.
+      - Managed IT infrastructure across 8 global offices and 2 datacenters, ensuring high availability and reliability.
+      - Led the migration from Exchange to Office 365, including training and rollout of Teams and OneDrive.
+      - Enhanced disaster recovery by documenting restore playbooks and implementing automated backup testing.
+      - Led team through rapid transformation to allow employees to work remotely.
+      - Strengthened security by rolling out MFA, security awareness training, and endpoint protection upgrades.
+      - Optimized onboarding with standardized communication and documentation, improving new hire experience.
+      - Deployed AWS S3 for marketing media and backup repositories.
 
   - role: IT Specialist
     company: ExamSoft
     location: Delray Beach, FL
-    start: 2017-05
-    end: 2018-06
+    dates: May 2017 – Jun 2018
     bullets:
-      - Supported corporate infrastructure via Jira Helpdesk.
-      - Scripted onboarding and logging automations.
-      - Built remote-access VPN for engineers.
+      - Supported corporate infrastructure and resolved internal IT issues using Jira Helpdesk.
+      - Scripted automations to streamline onboarding and logging tasks for Engineering.
+      - Built remote access VPN allowing engineers to access internal infrastructure while working remotely.
+      - Maintained IT documentation and provided remote technical support.
 
   - role: IT Administrator
     company: Sandy James Catering
     location: West Palm Beach, FL
-    start: 2012-08
-    end: 2017-05
+    dates: Aug 2012 – May 2017
     bullets:
-      - Built a Flask-based phone system for sales workflows.
-      - Managed IT infrastructure for office and remote staff.
+      - Built a custom Flask-based phone system to enhance sales workflows.
+      - Managed IT infrastructure and user support for office and remote staff.
+      - Introduced systems that improved internal communication and efficiency.
 
 education:
-  - degree: B.S. Applied Computer Science
+  - degree: B.S., Applied Computer Science
     institution: Troy University
     year: 2018
 
 skills:
-  Cloud: [AWS, Kubernetes, VMware, Proxmox]
-  Infrastructure as code: [Terraform, Terragrunt, Ansible, AWX]
-  CI/CD and GitOps: [Jenkins, ArgoCD, GitHub, Bitbucket]
-  Languages: [Python, PowerShell, Bash, JavaScript]
-  Observability: [Datadog, LogicMonitor, Site24x7]
-  Security: [CrowdStrike, Qualys, TAEGIS, GuardiCore]
-  Operations: [PagerDuty, Jira, Confluence, Active Directory]
+  Cloud & Infrastructure:
+    - AWS (EC2, S3, R53, IAM, EKS, ECS, EC2 Image Builder)
+    - Kubernetes
+    - VMware vSphere
+    - Proxmox VE
+    - ESXi
+    - Nutanix
+  Infrastructure as Code & Automation:
+    - Terraform
+    - Terragrunt
+    - Ansible
+    - AWX
+    - GitOps
+    - ArgoCD
+    - Jenkins
+  Scripting & Languages:
+    - Python
+    - PowerShell
+    - Bash
+    - Javascript
+    - Google Apps Script
+  Version Control & CI/CD:
+    - Git
+    - GitHub
+    - Bitbucket
+  Operating Systems:
+    - Windows Server
+    - Linux (Ubuntu, CentOS, Amazon Linux)
+    - macOS
+  Monitoring & Observability:
+    - Datadog (APM, Logs, Dashboards, Custom Checks, SLOs)
+    - LogicMonitor
+    - Site24x7
+  Security & Endpoint Protection:
+    - CrowdStrike
+    - Sophos
+    - Cisco AMP
+    - Qualys
+    - TAEGIS (Secureworks)
+    - GuardiCore
+  Networking & Remote Access:
+    - VPN
+    - SFTP
+    - Cisco Meraki
+    - Brocade
+  Backup & Recovery:
+    - Veeam
+    - Commvault
+    - N2WS
+  ITSM & Collaboration:
+    - Jira
+    - Confluence
+    - PagerDuty
+  System Services:
+    - Active Directory
+    - WSUS

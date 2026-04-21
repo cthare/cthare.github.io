@@ -24,7 +24,7 @@ permalink: /resume/
 <div class="role">
   <div class="role-header">
     <h3>{{ role.role }} — {{ role.company }}</h3>
-    <span class="role-dates">{{ role.start }} – {{ role.end }}</span>
+    <span class="role-dates">{{ role.dates }}</span>
   </div>
   <p class="muted">{{ role.location }}</p>
   <ul>
