@@ -2,9 +2,7 @@
   <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
   <nav class="site-nav" aria-label="Primary">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>about</a>
-    <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' or page.url contains '/project/' %} aria-current="page"{% endif %}>projects</a>
     <a href="{{ '/resume/' | relative_url }}"{% if page.url contains '/resume' %} aria-current="page"{% endif %}>resume</a>
-    <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} aria-current="page"{% endif %}>contact</a>
   </nav>
   <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false">
     <span aria-hidden="true" data-theme-icon>○</span>
