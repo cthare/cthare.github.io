@@ -16,8 +16,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - CLAUDE.md
-  - TODO.md
   - vendor
   - node_modules
