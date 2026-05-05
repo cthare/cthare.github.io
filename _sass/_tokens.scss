@@ -1,0 +1,18 @@
+:root,
+[data-theme="light"] {
+  --bg: #fafaf7;
+  --fg: #1a1a1a;
+  --muted: #666666;
+  --accent: #a04040;
+  --border: #e5e5e0;
+  --code-bg: #f0efe9;
+}
+
+[data-theme="dark"] {
+  --bg: #0e0e0e;
+  --fg: #e8e8e3;
+  --muted: #8a8a85;
+  --accent: #e89a6c;
+  --border: #2a2a27;
+  --code-bg: #1a1a18;
+}

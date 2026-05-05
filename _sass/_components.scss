@@ -1,0 +1,101 @@
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--bg);
+  color: var(--accent);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--accent);
+  z-index: 100;
+}
+
+.site-header {
+  max-width: 65ch;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 0;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--accent);
+}
+
+.theme-toggle {
+  color: var(--muted);
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+}
+
+.site-footer {
+  max-width: 65ch;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.site-footer p { margin: 0; }
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-list > li + li {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.project-list h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.project-list .tech {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.resume {
+  .resume-meta { color: var(--muted); margin-bottom: 2rem; }
+  .role { margin-bottom: 1.5rem; }
+  .role-header { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.25rem; }
+  .role-header h3 { margin: 0; font-size: 1rem; }
+  .role-dates { color: var(--muted); font-size: 0.9rem; }
+  .skills dt { font-weight: 600; margin-top: 0.75rem; }
+  .skills dd { margin: 0 0 0.25rem; color: var(--muted); }
+}
